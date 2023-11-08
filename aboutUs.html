@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aboutStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="script.js"></script>
+    <!-- Add Bootstrap CSS and JavaScript links here -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--NAV-bAR-->
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://example.com/your-image-url.jpg" alt="Hotel Logo" width="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav mx-auto"> <!-- Center-align the 5 elements -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Booking</a>
+                        <div class="hidden-text">
+                            <div class="row">
+                                <div class="col-3">Hotel</div>
+                                <div class="col-3">Arrival time</div>
+                                <div class="col-3">Room choice</div>
+                                <div class="col-3">Discount codes</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutUs.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign In</a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Search">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>  
+
+
+    <div class="container my-5" style="background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(150,113,59,1) 49%, rgba(110,63,12,1) 100%);">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <img src="logo.png" alt="Image" width="300" height="300" class="img-fluid rounded-circle">
+            </div>
+        </div>
+    </div>
+    
+
+    <section class="our-story mt-5 pt-5 animated-section" id="ourstory-animated">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="card1.jpg" alt="How FashionGit Was Formed" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-center mb-5"><i class="fas fa-history mt-3 text-center" style="margin-right: 10px;"></i>Our Story</h2>
+                    <p class="text-center">Our journey began with a vision to revolutionize the way people experience fashion. FashionGit
+                        was
+                        formed by a group of passionate individuals who shared a common love for style and innovation.
+                        We
+                        envisioned a platform that bridges the gap between fashion creators and fashion enthusiasts,
+                        fostering a sense of community and empowering every individual to express their unique style.</p>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <section class="how-formed-section mt-5 pt-5 animated-section" id="ourMission-animated">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="text-center"><i class="fas fa-bullseye mt-3" style="margin-right:20px"></i>Our Missions</h2>
+                    <p class="mt-5 text-center" style="word-spacing: 3px;">Our journey began with a vision to revolutionize the way people experience fashion. FashionGit
+                        was
+                        formed by a group of passionate individuals who shared a common love for style and innovation.
+                        We
+                        envisioned a platform that bridges the gap between fashion creators and fashion enthusiasts,
+                        fostering a sense of community and empowering every individual to express their unique style.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="card2.jpg" alt="How FashionGit Was Formed" class="img-fluid">
+                    
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="about-us-2 mt-5">
+        <div class="container my-5">
+            
+            <div class="row section" data-index="3">
+                <!-- Your third section content -->
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <h3><i class="fas fa-hand-holding-heart"></i> Our Values</h3>
+                        <p>We value customer satisfaction and sustainability. Our commitment is to provide the best service to our customers while minimizing our impact on the environment.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3><i class="fas fa-users"></i> Our Team</h3>
+                        <p>Meet our dedicated and experienced team. We have a passionate group of professionals who are dedicated to ensuring your stay is comfortable and enjoyable.</p>
+                        <!-- Testimonials -->
+                        <div class="testimonials mt-5">
+                            <div class="testimonial ">
+                                <img src="ratDude.webp" alt="Testimonial 1" class="rounded-circle" width="80" height="80">
+                            </div>
+                            <div class="testimonial">
+                                <img src="ratDude.webp" alt="Testimonial 2" class="rounded-circle" width="70" height="70">
+                            </div>
+                            <div class="testimonial">
+                                <img src="channels4_profile.jpg" alt="Testimonial 3" class="rounded-circle" width="60" height="60">
+                            </div>
+                            <div class="testimonial">
+                                <img src="ratDude.webp" alt="Testimonial 4" class="rounded-circle" width="70" height="70">
+                            </div>
+                            <div class="testimonial">
+                                <img src="ratDude.webp" alt="Testimonial 5" class="rounded-circle" width="80" height="80">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3><i class="fas fa-comments"></i> Contact Us</h3>
+                        <p>Feel free to reach out for any inquiries or feedback. You can contact us at:</p>
+                        <!-- Phone Number with Icon -->
+                        <p><i class="fas fa-phone"></i> Phone: (123) 456-7890</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+
+
+  
+
+    <footer>    
+        <div class="container bg-light-subtle">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2023 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </footer>
+
+</body>
+</html>
